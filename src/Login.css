@@ -1,0 +1,53 @@
+.login_img{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+.login_form{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    border: 1px solid grey;
+    text-align: center;
+    align-items: center;
+
+    /* centers div */
+    margin: auto;
+    margin-top: 10px;
+}
+.login_button{
+    width: 200px;
+    height: 30px;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login_input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.login_privacy{
+   margin: 50px;
+}
+.login_Create_Account{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: beige;
+    border: 1px solid black;
+}
+.login_register{
+    width: 400px;
+    height: 200px;
+    margin-top: 100px;
+    text-align: center;
+    margin: auto;
+}
+.login_Amazon_rules{
+    border-top: 1px solid gray;
+    margin-top: 50px;
+}

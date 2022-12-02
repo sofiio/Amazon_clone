@@ -1,0 +1,64 @@
+.header_logo{
+    width:100px;
+    margin-top: 18px;
+    margin-left: 20px ;
+    margin-right: 20px;
+    object-fit: contain;
+}
+.header{
+
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    /* ნიშნავს, რომ არაფერი ამაზე ზემოთ არ იქნება */
+    z-index: 100;
+
+}
+.header_searchIcon{
+    background-color: #cd9042;
+    /* სჭირდება material-ui გასტილვას */
+    height: 32px !important;
+}
+.header_search{
+    display: flex;
+    /* ნიშნავს, რომ , რასაც მიემართება, ამ შემტხვევაში სერჩმა მთელი ეკრანი დაიკავოს მაქსიმალურად*/
+    flex: 1;
+}
+.header_searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_link{
+color: white;
+/* it removes underlines */
+text-decoration: none;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_optionLineOne{
+    font-size: 10px;
+}
+.header_optionLineTwo{
+    font-size: 13px;
+    /* აბოლდებს */
+    font-weight: 800;
+}
+.header_optionBasket{
+    display: flex;
+}
+.header_basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
