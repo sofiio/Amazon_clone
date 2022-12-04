@@ -5,7 +5,7 @@ function Login() {
   return (
     <>
     <div className='login_img'>
-    <img className='header_logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'/>
+    <img className='header_logo' src="/amazon_PNG11.png" alt="" />
     </div>
     <div className='login_form'>
     
