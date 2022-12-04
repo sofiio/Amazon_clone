@@ -12,18 +12,18 @@
     align-items: center;
     position: sticky;
     top: 0;
-    /* ნიშნავს, რომ არაფერი ამაზე ზემოთ არ იქნება */
+    /*Means that nothing will be top level of this */
     z-index: 100;
 
 }
 .header_searchIcon{
     background-color: #cd9042;
-    /* სჭირდება material-ui გასტილვას */
+    /* To style material-ui you need : !important */
     height: 32px !important;
 }
 .header_search{
     display: flex;
-    /* ნიშნავს, რომ , რასაც მიემართება, ამ შემტხვევაში სერჩმა მთელი ეკრანი დაიკავოს მაქსიმალურად*/
+    /* search will ocupy the whole screen*/
     flex: 1;
 }
 .header_searchInput{
@@ -52,7 +52,7 @@ text-decoration: none;
 }
 .header_optionLineTwo{
     font-size: 13px;
-    /* აბოლდებს */
+    /* makes bold */
     font-weight: 800;
 }
 .header_optionBasket{

@@ -9,4 +9,5 @@ export const StateProvider = ({reducer, initialState, children}) => (
 )
 
 export const useStateValue = () => useContext(StateContext);
+// next step after doing this is to wrap <StateProvider> to the app inside index.js
 // ამას რომ შევქმნით, შემდეგი ნაბიჯია index.js  ში <StateProvider>  ის შემორტყმა აპზე ვრაპერად
