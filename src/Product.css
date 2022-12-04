@@ -26,3 +26,18 @@
     background-color: orange;
     border: 1px solid black;
 }
+
+@media screen and (max-width: 687px) {
+    .product button {
+      width: auto;
+      height:40px;
+    }
+  }
+
+  @media screen and (max-width: 1372px) {
+    .product {
+      width: 400px;
+      height: 400px;
+    }
+  }
+ 

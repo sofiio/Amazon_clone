@@ -6,3 +6,10 @@
     border: 1px solid black;
     margin: 20px;
 }
+
+@media screen and (max-width: 771px) {
+    .checkoutProduct {
+        display: flex;
+        flex-direction: column;
+    }
+  }

@@ -1,7 +1,8 @@
 export const initialState ={
     basket:[],
     user:null,
-    // basket['sofia', 'ika'] ამ ჩანაწერით ბასკეტის გასწვრივ დაიწერება ციფრი 2
+    // basket['apple', 'pinapple'] after doing this we will have number "2" along basket 
+    // ამ ჩანაწერით ბასკეტის გასწვრივ დაიწერება ციფრი 2
 };
 
 function reducer(state, action){
