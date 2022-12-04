@@ -15,7 +15,8 @@ function Header({searchTerm, setSearchTerm}) {
   return (
     <nav className='header'>
         <Link to="/">
-        <img className='header_logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'/>
+        <img className='header_logo' src="/amazon_PNG11.png" alt="" />
+        {/* <img className='header_logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'/> */}
         </Link>
         <div className='header_search'>
         <input type="text" className='header_searchInput' onChange={(event) => {
